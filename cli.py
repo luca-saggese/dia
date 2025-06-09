@@ -33,8 +33,8 @@ def main():
     parser.add_argument(
         "--repo-id",
         type=str,
-        default="nari-labs/Dia-1.6B",
-        help="Hugging Face repository ID (e.g., nari-labs/Dia-1.6B).",
+        default="Lorenzob/aurora-1.6b-complete",
+        help="Hugging Face repository ID (e.g., Lorenzob/aurora-1.6b-complete).",
     )
     parser.add_argument(
         "--local-paths", action="store_true", help="Load model from local config and checkpoint files."

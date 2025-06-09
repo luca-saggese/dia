@@ -171,7 +171,7 @@ class Dia:
     @classmethod
     def from_pretrained(
         cls,
-        model_name: str = "nari-labs/Dia-1.6B",
+        model_name: str = "Lorenzob/aurora-1.6b-complete",
         compute_dtype: str | ComputeDtype = ComputeDtype.FLOAT32,
         device: torch.device | None = None,
         load_dac: bool = True,
@@ -182,7 +182,7 @@ class Dia:
         repository ID and then loads the model.
 
         Args:
-            model_name: The Hugging Face Hub repository ID (e.g., "nari-labs/Dia-1.6B").
+            model_name: The Hugging Face Hub repository ID (e.g., "Lorenzob/aurora-1.6b-complete").
             compute_dtype: The computation dtype to use.
             device: The device to load the model onto. If None, will automatically select the best available device.
             load_dac: Whether to load the DAC model.
