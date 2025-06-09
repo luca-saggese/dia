@@ -19,7 +19,7 @@ RUN pip install -e .
 
 ENV HF_HOME=/huggingface
 
-
+ENV GRADIO_SERVER_NAME=0.0.0.0
 
 #1.5
 CMD ["python", "-u", "-W", "ignore", "app.py", "--share", "--device", "cuda"]
